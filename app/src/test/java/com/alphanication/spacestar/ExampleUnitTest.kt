@@ -1,4 +1,4 @@
-package com.example.spacestar
+package com.alphanication.spacestar
 
 import org.junit.Test
 

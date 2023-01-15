@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.spacestar'
+    namespace 'com.alphanication.spacestar'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.spacestar"
+        applicationId "com.alphanication.spacestar"
         minSdk 21
         targetSdk 32
         versionCode 1
