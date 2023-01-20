@@ -14,4 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Spacestar"
 include ':app'
-include ':feature_astronaut_presentation'
+include ':feature_astronaut'
+include ':feature_astronaut:feature_astronaut_presentation'
