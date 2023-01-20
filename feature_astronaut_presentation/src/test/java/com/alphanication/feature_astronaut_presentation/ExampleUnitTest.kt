@@ -1,4 +1,4 @@
-package com.alphanication.feature_astronaut
+package com.alphanication.feature_astronaut_presentation
 
 import org.junit.Test
 

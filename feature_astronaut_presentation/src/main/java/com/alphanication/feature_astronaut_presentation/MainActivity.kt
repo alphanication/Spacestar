@@ -1,4 +1,4 @@
-package com.alphanication.feature_astronaut
+package com.alphanication.feature_astronaut_presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
