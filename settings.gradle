@@ -12,7 +12,11 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "Spacestar"
+
 include ':app'
+
 include ':feature_astronaut'
+include ':feature_astronaut:feature_astronaut_data'
 include ':feature_astronaut:feature_astronaut_presentation'
