@@ -1,4 +1,4 @@
-package com.alphanication.feature_astronaut
+package com.alphanication.feature_astronaut_presentation
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
