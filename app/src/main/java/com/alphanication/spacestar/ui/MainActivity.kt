@@ -1,7 +1,7 @@
 package com.alphanication.spacestar.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.alphanication.spacestar.R
 
 class MainActivity : AppCompatActivity() {
