@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/feature_astronaut" />
             <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_data" />
+            <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_di" />
             <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_domain" />
             <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_presentation" />
           </set>
