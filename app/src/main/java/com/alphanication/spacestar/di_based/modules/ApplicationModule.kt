@@ -8,7 +8,7 @@ import javax.inject.Singleton
 
 @Module
 class ApplicationModule(
-    private val application: Application,
+    private val application: Application
 ) {
 
     @Singleton

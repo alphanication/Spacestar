@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.alphanication.spacestar'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.alphanication.spacestar"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -38,9 +38,12 @@ android {
 
 dependencies {
 
+    // LOCAL MODULES
+    implementation project(path: ':spacestar_core:spacestar_di')
+
     // BASE versions
     def core_ktx_version = "1.7.0"
-    def app_compat_version = "1.5.1"
+    def app_compat_version = "1.6.0"
     def material_version = "1.7.0"
     def constraint_layout_version = "2.1.4"
 
