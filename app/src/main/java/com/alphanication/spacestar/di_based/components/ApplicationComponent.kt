@@ -3,6 +3,7 @@ package com.alphanication.spacestar.di_based.components
 import android.app.Application
 import android.content.Context
 import com.alphanication.spacestar.di_based.modules.ApplicationModule
+import com.alphanication.spacestar_di.providers.CoreDependenciesProvider
 import dagger.Component
 import javax.inject.Singleton
 
@@ -12,9 +13,9 @@ import javax.inject.Singleton
         ApplicationModule::class
     ]
 )
-interface ApplicationComponent {
+interface ApplicationComponent : CoreDependenciesProvider {
 
     // BASED PROVIDER'S
-    fun provideApplication(): Application
-    fun provideContext(): Context
+    override fun provideApplication(): Application
+    override fun provideContext(): Context
 }

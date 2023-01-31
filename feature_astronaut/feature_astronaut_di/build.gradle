@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.alphanication.mylibrary'
+    namespace 'com.alphanication.feature_astronaut_di'
     compileSdk 32
 
     defaultConfig {
