@@ -2,6 +2,12 @@ package com.alphanication.feature_astronaut_data.utils
 
 object StringConstants {
 
+    // REQUESTS
+    const val GET_ASTRONAUT_URL = "/2.2.0/astronaut/"
+    const val LIMIT_KEY = "limit"
+    const val OFFSET_KEY = "offset"
+
+    // FIELD'S
     const val COUNTRY_CODE_FIELD = "country_code"
     const val FOUNDING_YEAR_FIELD = "founding_year"
     const val IMAGE_URL_FIELD = "image_url"
