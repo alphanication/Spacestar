@@ -2,6 +2,8 @@ package com.alphanication.feature_astronaut_data.utils.constants
 
 object StringConstants {
 
+    const val EMPTY_STRING = ""
+
     // REQUESTS
     const val GET_ASTRONAUT_URL = "/2.2.0/astronaut/"
     const val LIMIT_KEY = "limit"
