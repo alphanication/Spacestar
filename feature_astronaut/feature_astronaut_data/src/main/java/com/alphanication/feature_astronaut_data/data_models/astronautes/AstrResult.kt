@@ -11,32 +11,32 @@ import com.alphanication.feature_astronaut_data.utils.StringConstants.PROFILE_IM
 import com.google.gson.annotations.SerializedName
 
 data class AstrResult(
-    val age: Int,
-    val astrAgencyData: AstrAgencyData,
-    val bio: String,
+    val age: Int?,
+    val astrAgencyData: AstrAgencyData?,
+    val bio: String?,
     @SerializedName(DATE_OF_BIRTH_FIELD)
-    val dateOfBirth: String,
+    val dateOfBirth: String?,
     @SerializedName(DATE_OF_DEATH_FIELD)
-    val dateOfDeath: String,
+    val dateOfDeath: String?,
     @SerializedName(FIRST_FLIGHT_FIELD)
-    val firstFlight: String,
+    val firstFlight: String?,
     @SerializedName(FLIGHTS_COUNT_FIELD)
-    val flightsCount: Int,
-    val id: Int,
-    val instagram: String,
+    val flightsCount: Int?,
+    val id: Int?,
+    val instagram: String?,
     @SerializedName(LANDINGS_COUNT_FIELD)
-    val landingsCount: Int,
+    val landingsCount: Int?,
     @SerializedName(LAST_FLIGHT_FIELD)
-    val lastFlight: String,
-    val name: String,
-    val nationality: String,
+    val lastFlight: String?,
+    val name: String?,
+    val nationality: String?,
     @SerializedName(PROFILE_IMAGE_FIELD)
-    val profileImage: String,
+    val profileImage: String?,
     @SerializedName(PROFILE_IMAGE_THUMBNAIL)
-    val profileImageThumbnail: String,
-    val astrStatus: AstrStatus,
-    val twitter: String,
-    val astrType: AstrType,
-    val url: String,
-    val wiki: String
+    val profileImageThumbnail: String?,
+    val astrStatus: AstrStatus?,
+    val twitter: String?,
+    val astrType: AstrType?,
+    val url: String?,
+    val wiki: String?
 )

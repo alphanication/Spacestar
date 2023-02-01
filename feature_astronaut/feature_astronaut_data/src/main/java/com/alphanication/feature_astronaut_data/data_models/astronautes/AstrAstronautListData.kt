@@ -1,6 +1,6 @@
 package com.alphanication.feature_astronaut_data.data_models.astronautes
 
 data class AstrAstronautListData(
-    val count: Int,
-    val astrResults: List<AstrResult>
+    val count: Int?,
+    val astrResults: List<AstrResult>?
 )
