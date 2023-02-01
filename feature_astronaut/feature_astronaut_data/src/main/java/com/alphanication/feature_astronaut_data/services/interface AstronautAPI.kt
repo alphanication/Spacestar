@@ -1,9 +1,9 @@
 package com.alphanication.feature_astronaut_data.services
 
 import com.alphanication.feature_astronaut_data.data_models.astronautes.AstrAstronautListData
-import com.alphanication.feature_astronaut_data.utils.StringConstants.GET_ASTRONAUT_URL
-import com.alphanication.feature_astronaut_data.utils.StringConstants.LIMIT_KEY
-import com.alphanication.feature_astronaut_data.utils.StringConstants.OFFSET_KEY
+import com.alphanication.feature_astronaut_data.utils.constants.StringConstants.GET_ASTRONAUT_URL
+import com.alphanication.feature_astronaut_data.utils.constants.StringConstants.LIMIT_KEY
+import com.alphanication.feature_astronaut_data.utils.constants.StringConstants.OFFSET_KEY
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

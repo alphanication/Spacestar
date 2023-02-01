@@ -1,4 +1,4 @@
-package com.alphanication.feature_astronaut_data.utils
+package com.alphanication.feature_astronaut_data.utils.constants
 
 object StringConstants {
 
