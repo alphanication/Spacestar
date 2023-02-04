@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigationFragment"
-        android:name="com.alphanication.spacestar.ui.fragments.navigation_fragment.NavigationFragment"
+        android:name="com.alphanication.spacestar.ui.fragments.navigation_splash_fragment.NavigationSplashFragment"
         android:label="fragment_navigation"
         tools:layout="@layout/fragment_navigation" />
 
