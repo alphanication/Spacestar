@@ -1,18 +1,22 @@
 package com.alphanication.spacestar.ui.fragments.navigation_splash_fragment
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.view.LayoutInflater
+import android.util.Log
 import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import com.alphanication.spacestar.R
+import com.alphanication.spacestar.databinding.FragmentNavigationSplashBinding
+import com.alphanication.spacestar_base.ui.fragment.BaseFragment
+import javax.inject.Inject
 
-@SuppressLint("CustomSplashScreen")
-class NavigationSplashFragment : Fragment() {
+class NavigationSplashFragment : BaseFragment<NavigationSplashViewModel, FragmentNavigationSplashBinding>(
+    FragmentNavigationSplashBinding::inflate
+) {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? = inflater.inflate(R.layout.fragment_navigation, container, false)
+    @Inject
+    override lateinit var factory: NavigationSplashViewModel.Factory
+
+    override val viewModel: NavigationSplashViewModel by assistedViewModel()
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
 }
