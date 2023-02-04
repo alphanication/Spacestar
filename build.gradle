@@ -11,12 +11,12 @@ buildscript {
         logging_interceptor_version = "3.10.0"
         app_compat_version = "1.6.0"
         material_version = "1.7.0"
-        constraint_layout_version = "2.1.4"
+        fragment_version = "1.5.5"
     }
     repositories {
         maven { url "https://maven.google.com" }
         google()
-        maven { url "https://jitpack.io" }
+        maven { url "https://www.jitpack.io" }
         jcenter()
     }
 }
