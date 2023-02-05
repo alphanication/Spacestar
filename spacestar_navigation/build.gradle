@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.alphanication.feature_navigation_spacestar'
+    namespace 'com.alphanication.spacestar_navigation'
     compileSdk 32
 
     defaultConfig {
