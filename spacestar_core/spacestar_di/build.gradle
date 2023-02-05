@@ -33,7 +33,7 @@ android {
 
 dependencies {
 
-    implementation project (path: ':spacestar_core:spacestar_base')
+    implementation project(path: ':spacestar_core:spacestar_base')
 
     // DAGGER
     implementation "com.google.dagger:dagger:$dagger_version"

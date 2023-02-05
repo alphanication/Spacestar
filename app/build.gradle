@@ -40,7 +40,7 @@ dependencies {
 
     // LOCAL MODULES
     implementation project(path: ':spacestar_core:spacestar_di')
-    implementation project (path: ':spacestar_core:spacestar_base')
+    implementation project(path: ':spacestar_core:spacestar_base')
 
     // BASE
     implementation "androidx.core:core-ktx:$core_ktx_version"

@@ -9,8 +9,8 @@ import dagger.assisted.AssistedInject
 
 class NavigationSplashViewModel @AssistedInject constructor(
     @Assisted savedStateHandle: SavedStateHandle
-): ViewModel() {
+) : ViewModel() {
 
     @AssistedFactory
-    interface Factory: ViewModelFactory<NavigationSplashViewModel>
+    interface Factory : ViewModelFactory<NavigationSplashViewModel>
 }

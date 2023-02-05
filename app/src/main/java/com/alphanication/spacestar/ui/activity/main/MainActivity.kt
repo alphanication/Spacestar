@@ -2,8 +2,6 @@ package com.alphanication.spacestar.ui.activity.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.NavHostFragment
-import com.alphanication.spacestar.R
 import com.alphanication.spacestar.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
