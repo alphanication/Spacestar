@@ -17,6 +17,8 @@ import javax.inject.Singleton
 )
 interface ApplicationComponent : CoreDependenciesProvider {
 
+    fun inject(application: Application)
+
     // BASED PROVIDER'S
     override fun provideApplication(): Application
     override fun provideContext(): Context
