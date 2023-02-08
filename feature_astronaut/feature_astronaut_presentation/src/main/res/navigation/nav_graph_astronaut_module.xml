@@ -9,6 +9,10 @@
         android:id="@+id/listAstronautFragment"
         android:name="com.alphanication.feature_astronaut_presentation.ui.list_astronaut.ListAstronautFragment"
         android:label="fragment_list_astronaut"
-        tools:layout="@layout/fragment_list_astronaut" />
+        tools:layout="@layout/fragment_list_astronaut">
+
+        <deepLink app:uri="spacestar://feature_astronaut" />
+
+    </fragment>
 
 </navigation>
