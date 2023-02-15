@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_domain" />
             <option value="$PROJECT_DIR$/feature_astronaut/feature_astronaut_presentation" />
             <option value="$PROJECT_DIR$/spacestar_core" />
+            <option value="$PROJECT_DIR$/spacestar_core/spacestar_base_data" />
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_base_presentation" />
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_di" />
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_util" />

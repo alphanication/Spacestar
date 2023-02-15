@@ -20,6 +20,7 @@ include ':app'
 include ':spacestar_navigation'
 include ':spacestar_core:spacestar_di'
 include ':spacestar_core:spacestar_util'
+include ':spacestar_core:spacestar_base_data'
 include ':spacestar_core:spacestar_base_presentation'
 
 include ':feature_astronaut'
