@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace 'com.alphanication.spacestar_di'
-    compileSdk 33
+    namespace 'com.alphanication.spacestar_util'
+    compileSdk 32
 
     defaultConfig {
         minSdk 21
-        targetSdk 33
+        targetSdk 32
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -32,8 +32,6 @@ android {
 }
 
 dependencies {
-
-    implementation project(path: ':spacestar_core:spacestar_base_presentation')
 
     // DAGGER
     implementation "com.google.dagger:dagger:$dagger_version"

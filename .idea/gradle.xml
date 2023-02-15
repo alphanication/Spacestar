@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_base_data" />
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_base_presentation" />
             <option value="$PROJECT_DIR$/spacestar_core/spacestar_di" />
+            <option value="$PROJECT_DIR$/spacestar_core/spacestar_util" />
             <option value="$PROJECT_DIR$/spacestar_navigation" />
           </set>
         </option>
