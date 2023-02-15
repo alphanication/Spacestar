@@ -41,7 +41,7 @@ dependencies {
     // LOCAL MODULES
     implementation project(path: ':spacestar_navigation')
     implementation project(path: ':spacestar_core:spacestar_di')
-    implementation project(path: ':spacestar_core:spacestar_base')
+    implementation project(path: ':spacestar_core:spacestar_base_presentation')
     implementation project(path: ':feature_astronaut:feature_astronaut_presentation')
 
     // BASE

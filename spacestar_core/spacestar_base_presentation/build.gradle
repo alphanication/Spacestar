@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.alphanication.spacestar_base'
+    namespace 'com.alphanication.spacestar_base_presentation'
     compileSdk 32
 
     defaultConfig {
